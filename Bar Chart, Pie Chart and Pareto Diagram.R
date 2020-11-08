@@ -11,6 +11,7 @@ lbls <- paste(df$state, rf)              # add percents to state in new object l
 lbls <- paste(lbls,"%",sep="")           # add % to labels
 pie(rf, lbls, main = "Ice Cream Sales", col = rainbow(length(rf)))
 
+# install and import 'gcc' library first
 # pareto diagram
 names(sales)<-c('New York','Texas','Hawaii','Florida','San Francisco')
 pareto.chart(sales, xlab="State", ylab="Sales")
