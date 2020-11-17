@@ -22,6 +22,7 @@ plot(y2, type = "o")
 
 # qexp(p, rate = 1, lower.tail = TRUE, log.p = FALSE)
 # This function gives the possibility, we can use the qexp function to return the corresponding values of the quantile function
+
 x3 <- seq(0, 1, by = 0.2)
 y3 <- qunif(x3, rate=1)     
 plot(y3, type = "o")
