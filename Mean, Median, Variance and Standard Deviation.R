@@ -1,0 +1,5 @@
+df <- read.csv('dataset.csv')
+print(mean(df$Dataset))
+print(median(df$Dataset))
+print(var(df$Dataset))
+print(sd(df$Dataset))
