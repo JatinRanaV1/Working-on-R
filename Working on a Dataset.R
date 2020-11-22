@@ -1,0 +1,11 @@
+df <- read.csv('kc_house_data.csv')
+
+head(df)
+
+tail(df)
+
+range(df$grade)
+range(df$bedrooms)
+
+library(ggplot2)
+ggplot(data = df, aes(x=bathrooms, y=grade)) + geom_point()
