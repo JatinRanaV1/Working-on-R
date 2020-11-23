@@ -9,3 +9,7 @@ range(df$bedrooms)
 
 library(ggplot2)
 ggplot(data = df, aes(x=bathrooms, y=grade)) + geom_point()
+
+hist(df$bathrooms, main='Bathrooms Distribution',
+     xlab='Index', ylab='Value', border='black',
+     col=c('blue','red', 'green'))
