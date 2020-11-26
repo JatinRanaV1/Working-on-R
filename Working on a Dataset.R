@@ -16,3 +16,9 @@ hist(df$bathrooms, main='Bathrooms Distribution',
 
 hist(df$floors, main='Floors Distribution',xlab='Index',
      ylab='Value', border='black', col='purple')
+
+table(df$bedrooms)
+table(df$bathrooms)
+table(df$floors)
+table(df$condition)
+table(df$grade)
