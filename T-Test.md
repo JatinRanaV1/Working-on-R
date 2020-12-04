@@ -1,6 +1,6 @@
-> dataset<-read.csv('Titanic.csv')
+    dataset<-read.csv('Titanic.csv')
 ### Test the Hypothesis: The Titanic survivors were younger than the passengers who died. 
-### Soln. --->
+    Soln.
 ### Our hypothesis : 
 #### The Titanic survivors were younger than the passengers who died.
 ### Null hypothesis :
